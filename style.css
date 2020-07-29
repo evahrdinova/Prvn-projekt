@@ -1,43 +1,21 @@
 
 
-.body {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+    margin: 200px;
+    background-color: sienna;
+
 }
 .produkt {
     margin: 10px 0 0;
     color: #959595;
+    justify-content: center;
+    width: 500px;
+    background-color: silver;
 }
 
 .popis {
     margin: 30 0;
 }
-
-.velikosti {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    align-items: baseline;
-    justify-content: space-around;
-}
-
-.velikosti li {
-    margin: 20px;
-
-}
-
-.vybrana {
-    border: 1px;
-    border-color: #42f1c5;
-    border-style: solid;
-    border-radius: 50%;
-    padding: 5px;
-    color: #f15f42;
-}
-
 .tlacitko {
     background-color: black;
     color: white;
@@ -45,6 +23,6 @@
     padding: 10px;
     display: inline-block;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50%;
     margin-top: 60px;
 }
